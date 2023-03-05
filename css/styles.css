@@ -29,42 +29,15 @@ hr.hr-lev3 {
     background-color: #E3FDFD;
     position: relative;
     padding: 0;
-    padding-top: 100px;
+    /* padding-top: 100px; */
     color: #66bfbf;
 }
 
 .top-container h1 {
-    margin: 50px auto 0 auto;
+    margin: auto auto auto auto;
     font-family: 'Baloo 2', cursive;
     font-size: 5.625rem;
-    padding-top: 50px;
-}
-
-.top-container h2 {
-    font-size: 2.5rem;
-    font-weight: normal;
-}
-
-.top-container .pro {
-    text-decoration: underline;
-}
-
-.top-container .mountain {
-    margin: 0;
-    border: 0;
-    padding: 0;
-}
-
-.top-container .top-cloud {
-    position: absolute;
-    right: 300px;
-    top: 50px;
-}
-
-.top-container .bottom-cloud {
-    position: absolute;
-    left: 300px;
-    bottom: 300px;
+    /* padding-top: 50px; */
 }
 
 
@@ -84,21 +57,16 @@ hr.hr-lev3 {
 .profile h2 {
     color: #71C9CE;
     margin: auto;
-    /* width: 80%;
-    max-width: 900px; */
+    padding: 0;
 }
 
-/* .profile p {
-    margin: auto;
-    width: 80%;
-    max-width: 900px;
-} */
-
+.links .links-list {
+    text-align: left;
+}
 
 
 .experience {
     position: relative;
-    background-color: #E3FDFD;
     margin: 0;
     padding: 0;
 }
@@ -133,13 +101,11 @@ hr.hr-lev3 {
 
 .contact-me {
     position: relative;
-    background-color: #E3FDFD;
     margin: 0;
     padding: 0;
 }
 
 .contact-me .btn {
-    background: #A6E3E9;
     background-image: -webkit-linear-gradient(top, #A6E3E9, #31c6d4);
     background-image: -moz-linear-gradient(top, #A6E3E9, #31c6d4);
     background-image: -ms-linear-gradient(top, #A6E3E9, #31c6d4);
@@ -186,4 +152,12 @@ hr.hr-lev3 {
     max-width: 900px;
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+.shaded {
+    background-color: #E3FDFD;
+}
+
+.no-shade {
+    background-color: white;
 }
